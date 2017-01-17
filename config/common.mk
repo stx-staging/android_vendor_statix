@@ -28,6 +28,13 @@ PRODUCT_COPY_FILES += \
     vendor/statix/build/tools/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
 endif
 
+ifeq ($(AB_OTA_UPDATER),true)
+PRODUCT_COPY_FILES += \
+    vendor/statix/build/tools/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/statix/build/tools/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/statix/build/tools/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+endif
+
 # copy privapp permissions
 PRODUCT_COPY_FILES += \
     vendor/statix/prebuilt/common/etc/permissions/privapp-permissions-statix.xml:system/etc/permissions/privapp-permissions-statix.xml
