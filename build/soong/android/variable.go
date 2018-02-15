@@ -30,6 +30,10 @@ type Product_variables struct {
 	Uses_generic_camera_parameter_library struct {
 		Srcs []string
 	}
+
+	Target_shim_libs struct {
+		Cppflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -45,4 +49,5 @@ type ProductVariables struct {
 	Cant_reallocate_omx_buffers *bool `json:",omitempty"`
 	Qcom_bsp_legacy         *bool `json:",omitempty"`
 	Qti_flac_decoder        *bool `json:",omitempty"`
+	Target_shim_libs  *string `json:",omitempty"`
 }
