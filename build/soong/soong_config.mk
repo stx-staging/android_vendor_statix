@@ -13,6 +13,8 @@ $(call add_json_bool,	Cant_reallocate_omx_buffers,				$(filter true,$(if $(filte
 $(call add_json_bool,	Qcom_bsp_legacy,							$(filter true,$(if $(TARGET_USES_QCOM_BSP_LEGACY),true,false)))
 $(call add_json_bool,	Qti_flac_decoder,							$(filter true,$(if $(strip $(AUDIO_FEATURE_ENABLED_EXTN_FLAC_DECODER)),true,false)))
 
+$(call add_json_str_omitempty,	Additional_gralloc_10_usage_bits, 	$(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
+
 $(call add_json_str,	Specific_camera_parameter_library,			$(TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY))
 $(call add_json_str,	Libart_img_base,							$(LIBART_IMG_BASE))
 $(call add_json_str,	QTIAudioPath,								$(call project-path-for,qcom-audio))
