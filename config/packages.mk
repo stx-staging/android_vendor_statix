@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
     StatixLauncher \
     StatixSystemUI \
     StatixSettings \
-    StatixThemePicker \
+    ThemePicker \
     SystemUIFlagFlipper
 
 # Camera
