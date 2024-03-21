@@ -21,8 +21,8 @@ PRODUCT_PACKAGES += \
     StatixLauncher \
     StatixSystemUI \
     StatixSettings \
-    StatixThemePicker \
-    SystemUIFlagFlipper
+    SystemUIFlagFlipper \
+    WallpaperPickerGoogleRelease
 
 # Camera
 PRODUCT_PACKAGES += \
