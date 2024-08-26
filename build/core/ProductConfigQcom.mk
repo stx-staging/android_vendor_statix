@@ -11,6 +11,9 @@ UM_NO_GKI_PLATFORMS := $(UM_4_4_FAMILY) $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_
 
 BOARD_USES_ADRENO := true
 
+# Vibrator HAL
+$(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
+
 # Add qtidisplay to soong config namespaces
 SOONG_CONFIG_NAMESPACES += qtidisplay
 
