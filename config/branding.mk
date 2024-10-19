@@ -23,6 +23,15 @@ ROM_FINGERPRINT := StatiXOS/$(PLATFORM_VERSION)/$(STATIX_BUILD_TYPE)/$(BUILD_DAT
 # Declare it's a StatiX build
 STATIX_BUILD := true
 
+# StatiXOS version properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.statix.version=$(STATIX_BASE_VERSION)-$(STATIX_BUILD_TYPE)-$(BUILD_DATE) \
+    ro.statix.base.version=$(STATIX_BASE_VERSION) \
+    ro.mod.version=$(BUILD_ID)-$(BUILD_DATE)-$(STATIX_BASE_VERSION) \
+    ro.statix.fingerprint=$(ROM_FINGERPRINT) \
+    ro.statix.buildtype=$(STATIX_BUILD_TYPE) \
+    ro.statix.device=$(TARGET_DEVICE)
+
 ## Signing
 ifneq (eng,$(TARGET_BUILD_VARIANT))
     # Define security directory
