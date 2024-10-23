@@ -58,7 +58,7 @@ ifneq (eng,$(TARGET_BUILD_VARIANT))
     endif
 
     # Override display ID with the final value
-    PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID="$(DISPLAY_ID)"
+    PRODUCT_BUILD_PROP_OVERRIDES += BuildDisplayId="$(DISPLAY_ID)"
 
     # OTA keys
     ifneq (,$(wildcard $(PROD_CERTS)/otakey.x509.pem))
