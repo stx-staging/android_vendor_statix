@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "qs_material_expressive_tiles"
+  state: ENABLED
+  permission: READ_ONLY
+}
