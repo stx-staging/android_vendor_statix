@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "smartspace_semantic_weather_data"
+  state: ENABLED
+  permission: READ_ONLY
+}

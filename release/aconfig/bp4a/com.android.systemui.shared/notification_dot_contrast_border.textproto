@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "notification_dot_contrast_border"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "smartspace_aqi_updated_design"
+  state: ENABLED
+  permission: READ_ONLY
+}
