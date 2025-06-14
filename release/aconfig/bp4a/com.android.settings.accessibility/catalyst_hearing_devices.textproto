@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.accessibility"
+  name: "catalyst_hearing_devices"
+  state: ENABLED
+  permission: READ_ONLY
+}
