@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "upright_charging_dreams_setup"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "status_icons_in_compose_refresh"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "compose_bouncer"
+  state: ENABLED
+  permission: READ_ONLY
+}

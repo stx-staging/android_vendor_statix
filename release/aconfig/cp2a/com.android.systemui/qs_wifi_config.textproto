@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "qs_wifi_config"
+  state: ENABLED
+  permission: READ_ONLY
+}

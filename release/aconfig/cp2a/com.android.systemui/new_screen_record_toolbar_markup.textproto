@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "new_screen_record_toolbar_markup"
+  state: ENABLED
+  permission: READ_ONLY
+}

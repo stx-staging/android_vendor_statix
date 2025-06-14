@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "hide_ringer_button_in_single_volume_mode"
+  state: ENABLED
+  permission: READ_ONLY
+}

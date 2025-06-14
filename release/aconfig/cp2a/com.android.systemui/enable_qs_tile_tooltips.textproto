@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "enable_qs_tile_tooltips"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "enable_note_in_action_corner"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "large_screen_qs_inline_power_menu"
+  state: ENABLED
+  permission: READ_ONLY
+}

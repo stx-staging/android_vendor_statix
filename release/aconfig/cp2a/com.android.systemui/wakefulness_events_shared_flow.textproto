@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "wakefulness_events_shared_flow"
+  state: ENABLED
+  permission: READ_ONLY
+}

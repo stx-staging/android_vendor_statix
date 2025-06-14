@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "status_bar_system_status_icons_in_compose"
+  state: ENABLED
+  permission: READ_ONLY
+}

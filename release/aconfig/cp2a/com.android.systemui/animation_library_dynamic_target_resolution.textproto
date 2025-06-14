@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "animation_library_dynamic_target_resolution"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "inline_notification_settings_access"
+  state: ENABLED
+  permission: READ_ONLY
+}

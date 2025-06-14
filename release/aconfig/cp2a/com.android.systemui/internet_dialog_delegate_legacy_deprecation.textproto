@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "internet_dialog_delegate_legacy_deprecation"
+  state: ENABLED
+  permission: READ_ONLY
+}
