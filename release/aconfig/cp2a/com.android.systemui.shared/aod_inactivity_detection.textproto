@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "aod_inactivity_detection"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "enable_sage"
+  state: ENABLED
+  permission: READ_ONLY
+}

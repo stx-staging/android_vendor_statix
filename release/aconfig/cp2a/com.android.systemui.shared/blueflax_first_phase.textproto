@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "blueflax_first_phase"
+  state: ENABLED
+  permission: READ_ONLY
+}
