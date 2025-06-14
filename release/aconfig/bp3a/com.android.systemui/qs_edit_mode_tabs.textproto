@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "qs_edit_mode_tabs"
+  state: ENABLED
+  permission: READ_ONLY
+}
