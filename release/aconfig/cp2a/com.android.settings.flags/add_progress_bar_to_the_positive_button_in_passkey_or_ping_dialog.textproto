@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "add_progress_bar_to_the_positive_button_in_passkey_or_ping_dialog"
+  state: ENABLED
+  permission: READ_ONLY
+}

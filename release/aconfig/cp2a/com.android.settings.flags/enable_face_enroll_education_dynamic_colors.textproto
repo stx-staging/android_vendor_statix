@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "enable_face_enroll_education_dynamic_colors"
+  state: ENABLED
+  permission: READ_ONLY
+}

@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "owl_v2_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

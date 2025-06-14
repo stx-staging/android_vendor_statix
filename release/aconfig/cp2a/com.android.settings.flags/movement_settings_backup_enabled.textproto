@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "movement_settings_backup_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}

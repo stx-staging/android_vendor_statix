@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "enable_binary_transparency_in_safety_center"
+  state: ENABLED
+  permission: READ_ONLY
+}

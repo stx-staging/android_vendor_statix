@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settings.flags"
+  name: "storage_summary_percentage_alignment"
+  state: ENABLED
+  permission: READ_ONLY
+}
