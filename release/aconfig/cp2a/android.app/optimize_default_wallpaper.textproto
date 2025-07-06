@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "optimize_default_wallpaper"
+  state: ENABLED
+  permission: READ_ONLY
+}

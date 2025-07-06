@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "enable_automation_notification_ui"
+  state: ENABLED
+  permission: READ_ONLY
+}

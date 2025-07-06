@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "notifs_all_use_pill_buttons"
+  state: ENABLED
+  permission: READ_ONLY
+}

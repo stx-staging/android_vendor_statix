@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "status_bar_headline"
+  state: ENABLED
+  permission: READ_ONLY
+}

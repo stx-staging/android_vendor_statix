@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "always_show_minimal_hun"
+  state: ENABLED
+  permission: READ_ONLY
+}
