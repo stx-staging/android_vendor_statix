@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "smartspace_viewpager2"
+  state: ENABLED
+  permission: READ_ONLY
+}

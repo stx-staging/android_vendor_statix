@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui.shared"
+  name: "smartspace_sports_card_background"
+  state: ENABLED
+  permission: READ_ONLY
+}
