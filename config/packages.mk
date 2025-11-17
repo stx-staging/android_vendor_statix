@@ -17,7 +17,8 @@ PRODUCT_PACKAGES += \
 DISABLE_DEXPREOPT_CHECK := true
 
 PRODUCT_PACKAGES += \
-    com.google.android.permission
+    com.google.android.permission \
+    com.google.android.tethering
 
 # App overrides
 PRODUCT_PACKAGES += \
