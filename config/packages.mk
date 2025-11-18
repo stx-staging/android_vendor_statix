@@ -16,6 +16,8 @@ PRODUCT_PACKAGES += \
 # APEX
 DISABLE_DEXPREOPT_CHECK := true
 
+PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES=vendor/statix-prebuilts/apex/certificates
+
 PRODUCT_PACKAGES += \
     com.google.android.cellbroadcast \
     com.google.android.permission \
