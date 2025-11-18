@@ -19,7 +19,8 @@ DISABLE_DEXPREOPT_CHECK := true
 PRODUCT_PACKAGES += \
     com.google.android.cellbroadcast \
     com.google.android.permission \
-    com.google.android.tethering
+    com.google.android.tethering \
+    com.google.android.wifi
 
 # App overrides
 PRODUCT_PACKAGES += \
