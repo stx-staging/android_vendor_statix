@@ -8,6 +8,9 @@
 PRODUCT_PACKAGES += \
     librsjni
 
+# TFLite service.
+PRODUCT_PACKAGES += libtensorflowlite_jni
+
 # StatiX Packages
 PRODUCT_PACKAGES += \
     StatiXOSWalls \

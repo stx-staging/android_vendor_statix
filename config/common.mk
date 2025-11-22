@@ -113,7 +113,8 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/lib/librsjni.so \
     system/lib64/libRSSupport.so \
     system/lib64/libblasV8.so \
-    system/lib64/librsjni.so
+    system/lib64/librsjni.so \
+    system/lib64/libtensorflowlite_jni.so
 
 # Flags
 ifeq ($(TARGET_BUILD_VARIANT), user)
