@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
 
 # TFLite service.
 PRODUCT_PACKAGES += libtensorflowlite_jni
+PRODUCT_PACKAGES += libtensorflowlite_jni_gms_client
 
 # StatiX Packages
 PRODUCT_PACKAGES += \
