@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.contentcapture.flags"
+  name: "enable_system_ui_underlay"
+  state: ENABLED
+  permission: READ_ONLY
+}

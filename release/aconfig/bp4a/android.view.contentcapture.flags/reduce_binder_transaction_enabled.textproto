@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.view.contentcapture.flags"
+  name: "reduce_binder_transaction_enabled"
+  state: ENABLED
+  permission: READ_ONLY
+}
