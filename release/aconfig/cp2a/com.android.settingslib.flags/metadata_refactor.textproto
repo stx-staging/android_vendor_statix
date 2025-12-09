@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.settingslib.flags"
+  name: "metadata_refactor"
+  state: ENABLED
+  permission: READ_ONLY
+}
