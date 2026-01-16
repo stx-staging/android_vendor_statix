@@ -55,6 +55,10 @@ endif
 PRODUCT_PACKAGES += \
     Multiuser
 
+# Quick Tap
+PRODUCT_PACKAGES += \
+    ColumbusService
+
 # Updaters
 ifeq ($(STATIX_BUILD_TYPE),OFFICIAL)
 PRODUCT_PACKAGES += \
