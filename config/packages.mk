@@ -26,8 +26,13 @@ DISABLE_DEXPREOPT_CHECK := true
 
 PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES=vendor/statix/build/target/product/security
 
+PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES=vendor/statix-prebuilts/apex/certificates
+
 PRODUCT_PACKAGES += \
-    com.google.android.permission
+    com.google.android.cellbroadcast \
+    com.google.android.permission \
+    com.google.android.tethering \
+    com.google.android.wifi
 
 # App overrides
 PRODUCT_PACKAGES += \
