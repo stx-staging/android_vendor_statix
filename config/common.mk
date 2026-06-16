@@ -97,6 +97,9 @@ include vendor/statix/config/bootanimation.mk
 # Fonts
 include vendor/statix/config/fonts.mk
 
+# Recovery
+include vendor/statix/config/recovery.mk
+
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/statix/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/statix/overlay/common
