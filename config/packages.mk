@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
 DISABLE_DEXPREOPT_CHECK := true
 
 PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES=vendor/statix/build/target/product/security
+PRODUCT_MAINLINE_NFC_SEPOLICY_DEV_CERTIFICATES=vendor/statix/build/target/product/security
 
 PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES=vendor/statix-prebuilts/apex/certificates
 
