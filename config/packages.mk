@@ -26,9 +26,13 @@ PRODUCT_MAINLINE_SEPOLICY_DEV_CERTIFICATES=vendor/statix-prebuilts/apex/certific
 
 PRODUCT_PACKAGES += \
     com.google.android.cellbroadcast \
+    com.google.android.gmssystem.prodvic \
     com.google.android.permission \
     com.google.android.tethering \
     com.google.android.wifi
+
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    product/apex/com.google.android.gmssystem.prodvic.apex
 
 # App overrides
 PRODUCT_PACKAGES += \
