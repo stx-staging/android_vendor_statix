@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.systemui.shared"
   name: "enable_ai_clocks"
-  state: ENABLED
+  state: DISABLED
   permission: READ_ONLY
 }

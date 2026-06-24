@@ -1,6 +1,6 @@
 flag_value {
   package: "android.app"
   name: "nm_contextual_display_launch"
-  state: ENABLED
+  state: DISABLED
   permission: READ_ONLY
 }
