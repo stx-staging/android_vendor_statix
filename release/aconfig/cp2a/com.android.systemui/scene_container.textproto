@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.systemui"
   name: "scene_container"
-  state: ENABLED
+  state: DISABLED
   permission: READ_ONLY
 }
