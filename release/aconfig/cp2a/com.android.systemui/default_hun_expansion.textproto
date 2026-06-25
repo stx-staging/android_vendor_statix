@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "default_hun_expansion"
+  state: ENABLED
+  permission: READ_ONLY
+}

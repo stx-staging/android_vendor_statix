@@ -1,0 +1,6 @@
+flag_value {
+  package: "android.app"
+  name: "nm_collapsed_lines"
+  state: ENABLED
+  permission: READ_ONLY
+}

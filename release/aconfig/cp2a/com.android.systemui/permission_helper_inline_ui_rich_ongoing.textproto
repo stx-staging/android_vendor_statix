@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.systemui"
+  name: "permission_helper_inline_ui_rich_ongoing"
+  state: ENABLED
+  permission: READ_ONLY
+}
