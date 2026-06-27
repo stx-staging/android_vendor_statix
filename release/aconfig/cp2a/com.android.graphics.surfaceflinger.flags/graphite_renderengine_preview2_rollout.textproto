@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.graphics.surfaceflinger.flags"
+  name: "graphite_renderengine_preview2_rollout"
+  state: ENABLED
+  permission: READ_ONLY
+}
