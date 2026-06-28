@@ -1,3 +1,4 @@
 name: "cp2a"
-prior_stages: "trunk"
+inherits: "mainline_2026_04"
+inherits: "cp1a"
 aconfig_value_sets: "aconfig_value_set-statix-cp2a"

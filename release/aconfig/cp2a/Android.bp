@@ -15,14 +15,7 @@
 
 aconfig_value_set {
     name: "aconfig_value_set-statix-cp2a",
-    values: [
-        "aconfig-values-cp2a-android.app-all",
-        "aconfig-values-cp2a-android.os-all",
-        "aconfig-values-cp2a-com.android.graphics.surfaceflinger.flags-all",
-        "aconfig-values-cp2a-com.android.settings.accessibility-all",
-        "aconfig-values-cp2a-com.android.settings.flags-all",
-        "aconfig-values-cp2a-com.android.settingslib.flags-all",
-        "aconfig-values-cp2a-com.android.systemui-all",
-        "aconfig-values-cp2a-com.android.systemui.shared-all",
+    srcs: [
+        "*/Android.bp",
     ],
 }

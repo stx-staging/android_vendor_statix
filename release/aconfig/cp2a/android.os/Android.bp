@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 aconfig_values {
-  name: "aconfig-values-cp2a-android.os-all",
+  name: "aconfig-values-statix-cp2a-android.os-all",
   package: "android.os",
   srcs: [
     "*.textproto",
