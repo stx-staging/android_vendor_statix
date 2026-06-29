@@ -1,0 +1,6 @@
+flag_value {
+  package: "com.android.art.rw.flags"
+  name: "skip_background_classes_in_profiles"
+  state: ENABLED
+  permission: READ_ONLY
+}
