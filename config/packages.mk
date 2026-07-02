@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     com.google.android.gmssystem.prodvic \
     com.google.android.permission \
     com.google.android.tethering \
+    com.google.android.webapp \
     com.google.android.wifi
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
