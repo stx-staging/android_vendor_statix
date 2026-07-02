@@ -66,12 +66,4 @@ ifneq (eng,$(TARGET_BUILD_VARIANT))
     ifneq (,$(wildcard $(PROD_CERTS)/otakey.x509.pem))
         PRODUCT_OTA_PUBLIC_KEYS := $(PROD_CERTS)/otakey.x509.pem
     endif
-
-    # Override certificates for certain packages
-    PRODUCT_CERTIFICATE_OVERRIDES := \
-        com.android.webapp:com.android.webapp.certificate.override
-
-    PRODUCT_CERTIFICATE_OVERRIDES += \
-        WebAppService:com.android.webapp.certificate.override
-
 endif
