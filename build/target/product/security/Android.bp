@@ -6,3 +6,8 @@ filegroup {
     ],
     visibility: ["//visibility:public"],
 }
+
+android_app_certificate {
+    name: "com.android.webapp.certificate.override",
+    certificate: "com.android.webapp.certificate.override",
+}
